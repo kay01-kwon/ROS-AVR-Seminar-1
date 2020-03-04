@@ -5,7 +5,9 @@ catkin_ws$ catkin_make
 
 Execution
 terminal1 $ roscore
+
 terminal2 $ rosrun pubsub pubsub
+
 
 Check
 publish any integer input data to the excuted node
