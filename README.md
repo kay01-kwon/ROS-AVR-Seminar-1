@@ -10,7 +10,11 @@ terminal2 $ rosrun pubsub pubsub
 
 
 Check
+
 publish any integer input data to the excuted node
+
 terminal3 $ rostopic pub /sub pubsub/MsgTutorial "input: 5"
+
 subscribe to the topic from the excuted node
+
 terminal4 $ rostopic echo /pub
